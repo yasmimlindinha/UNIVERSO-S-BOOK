@@ -4,6 +4,7 @@
     --preto: #000000;
     --fonte-principal: 'Poppin , 'sans serif';
     --branco: #ffffff;
+    --azul-degrade: linear-gradient (97.54deg, #002fs2 35.49%, #3265889 165.37%)
     }
     
     body {

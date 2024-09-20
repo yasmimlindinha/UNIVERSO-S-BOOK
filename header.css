@@ -1,3 +1,45 @@
 .cabecalho {
-    
+    width: 24%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("/IMG/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+}
+
+.lista-menu__titulo {
+    color: var (--preto);
+    background-color: var (--branco);
+    font-weight: 700px;
+}
+
+.lista-menu__link {
+    background: var (--azul-degrade);
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+    
