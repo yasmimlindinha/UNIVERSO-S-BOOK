@@ -1,10 +1,12 @@
-@import url("./styles/header.css")
+@import url("./styles/header.css");
 
 :root {
     --preto: #000000;
-    --fonte-principal: 'Poppin , 'sans serif';
+    --fonte-principal: 'Poppins' , 'sans serif';
     --branco: #ffffff;
-    --azul-degrade: linear-gradient (97.54deg, #002fs2 35.49%, #3265889 165.37%)
+    --azul-degrade: linear-gradient(97.54deg, #002fs2 35.49%, #3265889 165.37%);
+    --azul: #002F52;
+    --laranja: #EB9B00;
     }
     
     body {

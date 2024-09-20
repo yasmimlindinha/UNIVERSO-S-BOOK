@@ -1,0 +1,17 @@
+.banner {
+backgroud-color: var(--azul-degrade);
+display:flex;
+justify-content: center;
+}
+
+.banner__título {
+
+}
+
+.banner__texto {
+
+}
+
+.banner__pequisa {
+
+}
