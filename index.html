@@ -1,63 +1,91 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-    <meta charset = "UTF-8">
-    <meta name  = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNIVERSO'S BOOK</title>
-    <link rel = "stylesheet" href = "style.css">
-    <link rel = "stylesheet" href = "reset.css">
-    <link rel = "stylesheet" href = "header.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
-<header class = "cabecalho">
+<header class="cabecalho">
 
-    <div class = "container">
+    <div class="container">
         <!--ADICIONAR A TAG INPUT AQUI-->
-        <input type = "checkbox" id = "menu" class = "container__botao">
+        <input type="checkbox" id="menu" class="container__botao">
 
         <!--ADICIONAR A TAG LABEL AQUI-->
-        <label for = "menu">
-            <span class = "cabecalho__menu-hamburguer"></span>
+        <label for="menu">
+            <span class="cabecalho__menu-hamburguer"></span>
         </label>
 
         <!--ADICIONAR AS TAGS DE LISTA AQUI-->
-        <ul class = "lista-menu">
-            <li class = "lista-menu__titulo">CATEGORIAS</li>
-            <li href = "#" class = "lista-menu__link"> <a class = "lista-menu__item">Programação</a> </li>
-            <li href = "#" class = "lista-menu__link"> <a class = "lista-menu__item">Romance</a> </li>
-            <li href = "#" class = "lista-menu__link"> <a class = "lista-menu__item">Ficção Científica</a> </li>
-            <li href = "#" class = "lista-menu__link"> <a class = "lista-menu__item">Diversos</a> </li>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">CATEGORIAS</li>
+            <li href="#" class="lista-menu__link"> <a class="lista-menu__item">Programação</a> </li>
+            <li href="#" class="lista-menu__link"> <a class="lista-menu__item">Romance</a> </li>
+            <li href="#" class="lista-menu__link"> <a class="lista-menu__item">Ficção Científica</a> </li>
+            <li href="#" class="lista-menu__link"> <a class="lista-menu__item">Diversos</a> </li>
         </ul>
-        <a href = "#"> <img src = "IMG/Logo.svg" alt = "logotipo do aplicativo"> </a>
+        <a href="#"> <img src="IMG/Logo.svg" alt="logotipo do aplicativo"> </a>
 
     </div>
 
-    <div class = "container">
-        <a href = "#"> <img src = "IMG/Favoritos.svg" alt = "favoritos"> </a>
-        <a href = "#"> <img src = "IMG/Compras.svg" alt = "sacola de compras"> </a>
-        <a href = "#"> <img src = "IMG/Usu�rio.svg" alt = "meu perfil"> </a>
+    <div class="container">
+        <a href="#"> <img src="IMG/Favoritos.svg" alt="favoritos"> </a>
+        <a href="#"> <img src="IMG/Compras.svg" alt="sacola de compras"> </a>
+        <a href="#"> <img src="IMG/Usu�rio.svg" alt="meu perfil"> </a>
     </div>
 
 </header>
 
 <body>
-   <section class = "banner">
-    <h1 class = "banner__título">Universo's Book</h1>
-    <p  class = "banner__texto">Aqui você encontra o livro que precisa</p>
-    <h2 class = "banner__título">Já sabe por onde começar</h2>
-    <p  class = "banner__texto" >Encontre o livro que precisa para o seu desnvolvimento</p>
-    <input type = "search" class= "banner_pesquisa" placeholder = "Qual sua proxima letura?"
+    <section class="banner">
+        <h1 class="banner__título">Universo's Book</h1>
+        <p class="banner__texto">Aqui você encontra o livro que precisa</p>
+        <h2 class="banner__título">Já sabe por onde começar</h2>
+        <p class="banner__texto">Encontre o livro que precisa para o seu desnvolvimento</p>
+        <input type="search" class="banner_pesquisa" placeholder="Qual sua proxima letura?" </section>
 
-</section>
+        <section class="carrossel">
+            <div class="swiper">
+                <h2 class:="carrossel_título">NOVOS LANÇAMENTOS</h2>
 
-<section class = "carrossel">
-    <div class = "swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <img src="IMG/ApacheKafka.png" alt="livro de programação"></div>
+                    <div class="swiper-slide"> <img src="IMG/Liderança.png"
+                            alt="livro que fala sobre liderança em empresas"></div>
+                    <div class="swiper-slide"> <img src="IMG/Javascript.png" alt="livro de progamação em Javascript">
+                    </div>
+                    <div class="swiper-slide"> <img src="IMG/Guia Front-end.png" alt="livro de progamação em front-end">
+                    </div>
+                    <div class="swiper-slide"> <img src="IMG/Portugol.png" alt="livro sobre progamação em português">
+                    </div>
+                    <div class="swiper-slide"> <img src="IMG/CarreiraSemFronteira.png"
+                            alt="livro sobre como alavancar a carreira no exterior"></div>
 
-    </div>
-</section>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class= "card">
+                <div class= "card_descricao">
+                    <div class= "descricao">
+                    <h3 class= "descricao_título">TALVEZ VOCÊ SE INTERESSE POR:</h3>
+                    <p class= "descricao_subtítulo">ANGULAR E FIREBASE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 </body>
+
 </html>
