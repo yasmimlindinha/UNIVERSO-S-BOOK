@@ -1,17 +1,25 @@
 .banner {
-backgroud-color: var(--azul-degrade);
-display:flex;
-justify-content: center;
+   background-color: var(--azul-degrade);
+   display:flex;
+   justify-content: center;
+   color: white;
+   padding: 40px;
 }
 
 .banner__título {
-
+    font-size: 18px;
+    font-weight: 700px;
 }
 
 .banner__texto {
-
+    font-weight: 500px;
+    margin: 1em;
 }
 
 .banner__pequisa {
-
+    background-color: var(--azul-degrade);
+    border: 1px solid var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
 }
