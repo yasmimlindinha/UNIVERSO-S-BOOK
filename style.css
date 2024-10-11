@@ -9,7 +9,7 @@
     --laranja: #EB9B00;
     }
     
-    body {
+ body {
     background-color: var (--preto);
     color: var (--branco);
     font-size: var (--fonte-principal);
