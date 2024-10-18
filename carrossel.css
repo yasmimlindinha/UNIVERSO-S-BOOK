@@ -1,0 +1,35 @@
+.carrossel__título{
+    color :(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;/* FUNÇÃO PARA DEIXAR TODAS AS LETRAS MAIÚSCULAS*/
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em; /*"em" é a mesma coisa que 16px*/
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial; /*coloca a primeira imagem adicionada a tag img como inicio do carrossel*/
+    margin: 0.5px;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* FUNÇÃO QUE ADICIONA UMA SOMBRA EM UMA "CAIXA" */
+    border-radius: 10px; /* ADICIONA ESPESSURA NAS BORDAS DA CAIXA PARA ARREDONDÁ-LAS*/
+    margin: 1em;
+    padding: 1em;
+}
+
+
+
+
